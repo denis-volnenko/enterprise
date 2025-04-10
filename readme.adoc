@@ -171,6 +171,12 @@
 |UK
 |Unique Key
 
+|AI
+|Auto Increment
+
+|NN
+|Not Null
+
 |===
 
 *Общие сведения*
