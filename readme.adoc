@@ -178,10 +178,7 @@
 |created
 |Дата создания
 |Дата/Время
-a|
-string
-
-iso8601
+|string
 |timestamptz
 
 |username
