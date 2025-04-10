@@ -192,6 +192,12 @@
 |string
 |varchar(255)
 
+|title
+|Заголовок
+|Строка
+|string
+|varchar(255)
+
 |description
 |Описание
 |Строка
@@ -221,6 +227,12 @@
 |Целое число
 |number
 |integer
+
+|login
+|Логин
+|Строка
+|string
+|varchar(255)
 
 |username
 |Имя пользователя
