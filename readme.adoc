@@ -163,19 +163,19 @@
 |===
 
 ^|№
-|--
+^|--
 |Название
 
 ^|01.
-|PK
+^|PK
 |Primary Key
 
 ^|02.
-|FK
+^|FK
 |Foreign Key
 
 ^|03.
-|UK
+^|UK
 |Unique Key
 
 ^|04.
@@ -183,7 +183,7 @@
 |Auto Increment
 
 ^|05.
-|NN
+^|NN
 |Not Null
 
 |===
