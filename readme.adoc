@@ -187,6 +187,18 @@
 |string
 |timestamptz
 
+|updated
+|Дата обновления
+|Дата/Время
+|string
+|timestamptz
+
+|deleted
+|Дата удаления
+|Дата/Время
+|string
+|timestamptz
+
 |username
 |Имя пользователя
 |Строка
