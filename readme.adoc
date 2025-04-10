@@ -192,6 +192,12 @@
 |string
 |varchar(255)
 
+|description
+|Описание
+|Строка
+|string
+|text
+
 |created
 |Дата создания
 |Дата/Время
