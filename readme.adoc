@@ -179,7 +179,7 @@
 |Unique Key
 
 ^|04.
-|AI
+^|AI
 |Auto Increment
 
 ^|05.
