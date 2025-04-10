@@ -159,21 +159,26 @@
 
 *Основные сокращения*
 
-[cols="10,90"]
+[cols="0,10,90"]
 |===
 
+^|01.
 |PK
 |Primary Key
 
+^|02.
 |FK
 |Foreign Key
 
+^|03.
 |UK
 |Unique Key
 
+^|04.
 |AI
 |Auto Increment
 
+^|05.
 |NN
 |Not Null
 
