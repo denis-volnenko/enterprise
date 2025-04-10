@@ -216,6 +216,12 @@
 |string
 |timestamptz
 
+|version
+|Версия
+|Целое число
+|number
+|integer
+
 |username
 |Имя пользователя
 |Строка
