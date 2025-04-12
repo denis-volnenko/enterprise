@@ -601,3 +601,4 @@ DELETE:  /api/v1/tm/project/all/
 
 *Описание кодов ответа*
 
+include::template-restapi-model.adoc[]
