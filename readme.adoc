@@ -121,6 +121,10 @@
 
 ==== Старый подход к именованию ресурсов rest api
 
+* Названия операций содержат глаголы для выполнения CRUD-операции.
+
+* Названия операций содержат сведений о структуре backend-приложения.
+
 ----
 GET:  /api/v1/tm/ProjectController/selectOneProject
 GET:  /api/v1/tm/ProjectController/selectAllProject
@@ -180,6 +184,8 @@ POST: /api/v1/tm/ProjectController/deleteAllProject
 * Использование существительных в единственном числе.
 
 * Проектирование rest api в стиле restfull.
+
+* Названия операций не содержат сведений о структуре backend-приложения.
 
 ----
 GET:     /api/v1/tm/project/one/{id}/
