@@ -119,7 +119,22 @@
 
 === 1.3. Старый подход к проектированию rest api
 
-==== Старый подход к проектированию CRUD для rest api
+==== Старый подход к именованию ресурсов rest api
+
+----
+/api/v1/tm/ProjectController/selectOneTask
+/api/v1/tm/ProjectController/selectAllTask
+/api/v1/tm/ProjectController/insertOneTask
+/api/v1/tm/ProjectController/insertAllTask
+/api/v1/tm/ProjectController/createOneTask
+/api/v1/tm/ProjectController/createAllTask
+/api/v1/tm/ProjectController/updateOneTask
+/api/v1/tm/ProjectController/updateAllTask
+/api/v1/tm/ProjectController/deleteOneTask
+/api/v1/tm/ProjectController/deleteAllTask
+----
+
+==== Старый подход к проектированию CRUD rest api
 
 [cols="0,20,20,20,20"]
 |===
@@ -158,7 +173,7 @@
 
 === 1.4. Новый подход к проектированию rest api
 
-==== Новый подход к проектированию CRUD для rest api
+==== Новый подход к проектированию CRUD rest api
 
 [cols="0,20,20,20,20"]
 |===
