@@ -122,16 +122,16 @@
 ==== Старый подход к именованию ресурсов rest api
 
 ----
-GET:  /api/v1/tm/ProjectController/selectOneTask
-GET:  /api/v1/tm/ProjectController/selectAllTask
-POST: /api/v1/tm/ProjectController/insertOneTask
-POST: /api/v1/tm/ProjectController/insertAllTask
-POST: /api/v1/tm/ProjectController/createOneTask
-POST: /api/v1/tm/ProjectController/createAllTask
-POST: /api/v1/tm/ProjectController/updateOneTask
-POST: /api/v1/tm/ProjectController/updateAllTask
-POST: /api/v1/tm/ProjectController/deleteOneTask
-POST: /api/v1/tm/ProjectController/deleteAllTask
+GET:  /api/v1/tm/ProjectController/selectOneProject
+GET:  /api/v1/tm/ProjectController/selectAllProject
+POST: /api/v1/tm/ProjectController/insertOneProject
+POST: /api/v1/tm/ProjectController/insertAllProject
+POST: /api/v1/tm/ProjectController/createOneProject
+POST: /api/v1/tm/ProjectController/createAllProject
+POST: /api/v1/tm/ProjectController/updateOneProject
+POST: /api/v1/tm/ProjectController/updateAllProject
+POST: /api/v1/tm/ProjectController/deleteOneProject
+POST: /api/v1/tm/ProjectController/deleteAllProject
 ----
 
 ==== Старый подход к проектированию CRUD rest api
@@ -172,6 +172,21 @@ POST: /api/v1/tm/ProjectController/deleteAllTask
 |===
 
 === 1.4. Новый подход к проектированию rest api
+
+==== Новый подход к именованию ресурсов rest api
+
+----
+GET:     /api/v1/tm/project/one/{id}/
+GET:     /api/v1/tm/project/all
+POST:    /api/v1/tm/project/one/{id}/
+POST:    /api/v1/tm/project/all/
+PUT:     /api/v1/tm/project/one/{id}/
+PUT:     /api/v1/tm/project/all/
+PATCH:   /api/v1/tm/project/one/{id}/
+PATCH:   /api/v1/tm/project/all/
+DELETE:  /api/v1/tm/project/one/{id}/
+DELETE:  /api/v1/tm/project/all/
+----
 
 ==== Новый подход к проектированию CRUD rest api
 
