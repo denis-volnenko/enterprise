@@ -122,16 +122,16 @@
 ==== Старый подход к именованию ресурсов rest api
 
 ----
-/api/v1/tm/ProjectController/selectOneTask
-/api/v1/tm/ProjectController/selectAllTask
-/api/v1/tm/ProjectController/insertOneTask
-/api/v1/tm/ProjectController/insertAllTask
-/api/v1/tm/ProjectController/createOneTask
-/api/v1/tm/ProjectController/createAllTask
-/api/v1/tm/ProjectController/updateOneTask
-/api/v1/tm/ProjectController/updateAllTask
-/api/v1/tm/ProjectController/deleteOneTask
-/api/v1/tm/ProjectController/deleteAllTask
+GET:  /api/v1/tm/ProjectController/selectOneTask
+GET:  /api/v1/tm/ProjectController/selectAllTask
+POST: /api/v1/tm/ProjectController/insertOneTask
+POST: /api/v1/tm/ProjectController/insertAllTask
+POST: /api/v1/tm/ProjectController/createOneTask
+POST: /api/v1/tm/ProjectController/createAllTask
+POST: /api/v1/tm/ProjectController/updateOneTask
+POST: /api/v1/tm/ProjectController/updateAllTask
+POST: /api/v1/tm/ProjectController/deleteOneTask
+POST: /api/v1/tm/ProjectController/deleteAllTask
 ----
 
 ==== Старый подход к проектированию CRUD rest api
