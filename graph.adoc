@@ -21,7 +21,7 @@
 
 == Граф (нециклический, направленный, полный)
 
-ProjectGraphDto
+*ProjectGraphDto*
 ----
 {
   "id": "1",
@@ -34,8 +34,9 @@ ProjectGraphDto
     "name": "Вторая задача"
   }]
 }
+----
 
-TaskGraphDto
+*TaskGraphDto*
 ----
 {
   "id": "1",
@@ -51,12 +52,20 @@ TaskGraphDto
 
 == Граф (нециклический, направленный, облегченный)
 
-ProjectGraphDto
+*ProjectGraphDto*
 ----
 {
   "id": "1",
   "name": "Демо проект",
   "tasks": ["1", "2"]
+}
+----
+
+----
+{
+  "id": "1",
+  "name": "Первая задача",
+  "project": "1"
 }
 ----
 
