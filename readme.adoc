@@ -10,6 +10,9 @@
 |*Веб-сайт*
 |https://www.volnenko.ru
 
+|*E-mail*
+|denis@volnenko.ru
+
 |===
 
 == 1. Требования к проектированию
