@@ -175,6 +175,12 @@ POST: /api/v1/tm/ProjectController/deleteAllProject
 
 ==== Новый подход к именованию ресурсов rest api
 
+* Использование http-глаголов для веб-операций для унификации адресов.
+
+* Использование существительных в единственном числе.
+
+* Проектирование rest api в стиле restfull.
+
 ----
 GET:     /api/v1/tm/project/one/{id}/
 GET:     /api/v1/tm/project/all
