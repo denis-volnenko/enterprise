@@ -2,16 +2,16 @@
 
 == Плоские структуры
 
+*ProjectPlainDto*
 ----
-ProjectPlainDto:
 {
   "id": "1",
   "name": "Демо проект"
 }
 ----
 
+*TaskPlainDto*
 ----
-TaskPlainDto:
 {
   "id": "1",
   "name": "Демо задача",
