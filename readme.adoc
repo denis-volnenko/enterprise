@@ -117,31 +117,36 @@
 
 === Старый подход к проектированию rest api
 
-[cols="0,20,20,20"]
+[cols="0,20,20,20,20"]
 |===
 
 |№
 |R/W
+|CRUD
 |HTTP
 |SQL
 
 |01.
 |READ
+|CREATE
 |GET
 |SELECT
 
 |02.
 |WRITE
+|READ
 |POST
 |INSERT
 
 |03.
 |WRITE
+|UPDATE
 |POST
 |UPDATE
 
 |04.
 |WRITE
+|DELETE
 |DELETE
 |DELETE
 
