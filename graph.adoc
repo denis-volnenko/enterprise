@@ -43,6 +43,6 @@ ProjectGraphDto
 {
   "id": "1",
   "name": "Демо проект",
-  "taskIds": ["1", "2"]
+  "tasks": ["1", "2"]
 }
 ----
