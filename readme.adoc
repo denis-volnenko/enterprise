@@ -146,6 +146,8 @@ POST: /api/v1/tm/ProjectController/deleteAllProject
 
 * Все операции записи данных выполняются по http-методу POST.
 
+* Траспортный формат данных по умолчанию "application/xml".
+
 [cols="0,20,20,20,20"]
 |===
 
@@ -208,7 +210,13 @@ DELETE:  /api/v1/tm/project/all/
 
 ==== Новый подход к проектированию CRUD rest api
 
-* Используется расширенный список http-глаголов (GET, POST, PUT, PATCH, DELETE)
+* Используется расширенный список http-глаголов (GET, POST, PUT, PATCH, DELETE).
+
+* Все операции чтения данных выполняются по http-методу GET.
+
+* Все операции записи данных выполняются по http-методам POST (POST, PUT, PATCH, DELETE).
+
+* Траспортный формат данных по умолчанию "application/json".
 
 [cols="0,20,20,20,20"]
 |===
