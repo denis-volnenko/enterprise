@@ -589,6 +589,9 @@ DELETE:  /api/v1/tm/project/all/
 |*Сервис*
 |task-manager
 
+|*Веб-адрес*
+|/api/v1/tm/project/all/
+
 |*Веб-метод*
 |GET
 
