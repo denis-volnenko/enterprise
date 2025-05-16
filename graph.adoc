@@ -99,3 +99,14 @@
   "project": "1"
 }
 ----
+
+*TaskGraphDto*
+----
+{
+  "id": "1",
+  "name": "Первая задача",
+  "projectId": "1"
+  "projectName": "Тест"
+}
+----
+
