@@ -7,4 +7,7 @@ components:
         id: 
           type: string
           title: Идентификатор
+        name: 
+          type: string
+          title: Название
         
