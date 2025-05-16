@@ -10,4 +10,6 @@ components:
         name: 
           type: string
           title: Название
-        
+        description:
+          type: string
+          title: Описание
