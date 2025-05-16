@@ -3,3 +3,8 @@ components:
     TaskPlainDto:
       type: object
       description: Задача
+      properties:
+        id: 
+          type: string
+          title: Идентификатор
+        
